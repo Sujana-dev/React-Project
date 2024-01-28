@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.innovattse_dots .slick-active div{
+    @apply bg-secondary mx-4 relative after:absolute after:left-1/2 after:top-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:w-8 after:h-8 after:rounded-full after:border-secondary after:border-2
+}
+
+.slick-current .service-one{
+   @apply border-b-8 border-b-secondary
+}
+.slick-current .service-two{
+    @apply border-b-8 border-b-third
+}
+.slick-current .service-three{
+   @apply  border-b-8 border-b-[#2BCCFF]
+}
+.slick-current .service-four{
+    @apply border-b-8 border-b-[#5D5FEF]
+}
+.slick-current .service-five{
+    @apply border-b-8 border-b-third
+}
